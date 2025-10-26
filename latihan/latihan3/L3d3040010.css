@@ -1,0 +1,37 @@
+ 
+    body { 
+        background: linear-gradient(to bottom, #b3e5fc, white);
+        font-family: georgia, serif;
+        margin: 40px 80px;
+} 
+    h1 {
+        font-family: comic Sans MS;
+        font-size: 60px;
+        color: darkblue;
+        text-align: center;
+    }
+    h4 { 
+        text-align: center;
+    color: black;
+}
+.nama {
+    color: red;
+    font-weight: bold;
+}
+.intro {
+    color: orange;
+    text-align: justify;
+}
+p1 {
+    color: orange;
+    text-align: justify;
+}
+a {
+color: blue;
+text-decoration: none;
+font-weight:  bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+    

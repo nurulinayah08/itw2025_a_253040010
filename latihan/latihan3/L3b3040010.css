@@ -1,0 +1,31 @@
+
+        body {
+            background-color: aqua;
+            font font-family: georgia;
+        }
+        h1 {
+            font-family: comic sans MS;
+            font-size: 60px;
+            color: darkblue;
+        }
+        h4 {
+        text-align: right;
+        font-style: italic;
+        }
+        h3 {
+            color: black;
+            text-align: left;
+        }
+        h3 span {
+            color: darkcyan;
+            font-weight: bold;
+        }
+        .nama {
+            color: white;
+            font-weight: bold;
+        }
+        p1 {
+            color: orange;
+            text-align: justify;
+        }
+    
