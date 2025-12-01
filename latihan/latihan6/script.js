@@ -1,7 +1,6 @@
-const menuToggle = document.querySelector('.menu-toggle input');
-const nav = document.querySelector('nav ul');
+const menuIcon = document.getElementById("menu-icon");
+const menuList = document.getElementById("menu-list");
 
-menuToggle.addEventListener('click', function() {
-nav.classList.toggle('slide');
-
+menuIcon.addEventListener("click", () => {
+    menuList.classList.toggle("hidden");   
 });

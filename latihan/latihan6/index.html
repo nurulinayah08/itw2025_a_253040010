@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Navbar</title>
-<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Jersey+10&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <title>My Navbar Responsive</title>
+    <link rel="stylesheet" href="style.css">
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    
 </head>
 <body>
-    
     <nav>
         <div class="logo">
-            <h4>Nurul Inayah</h4>
+            <img src="logo.jpeg" alt="logo.png">
         </div>
-
-        <ul>
-            <li><a href="Home">Home</a></li>
-            <li><a href="Product">Product</a></li>
-            <li><a href="service">Service</a></li>
-            <li><a href="Gallery">Gallery</a></li>
-            <li><a href="About">About</a></li>
+         <div id="menu-icon" class="menu-icon">
+        <i class="ph ph-list"></i>
+        </div>
+        <ul id="menu-list" class="hidden">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Questions</a></li>
+            <li><a href="#">Shopping</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-
-        <div class="menu-toggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
     </nav>
-<script src="script.js"></script>
+    <main>
+       Navbar (Navigation bar) adalah elemen antar muka pada sebuah website atau aplikasi yang berfungsi 
+       sebagai pusat navigasi bagi pengguna. Biasanya terletak dibagian atas halaman. Navbar memuat tautan atau menu yang mengarahkan pengguna ke halaman-
+       halaman yang penting  seperti home, about, service dan product. Desain navbar yang baik harus jelas, responsif, dan mudah digunakan sehingga
+       pengunjung dapat menemukan informasi dengan cepat tanpa kebingungan. Selain membantu orientasi pengguna, navbar juga berperan dalam 
+       memperkuat struktur dan pengalaman keseluruhan sebuah website.</main>
+    <script src="script.js"></script>
 </body>
 </html>
